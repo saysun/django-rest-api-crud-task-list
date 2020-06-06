@@ -1,0 +1,30 @@
+following
+https://www.youtube.com/watch?v=ejJ-2oz4AgI
+
+- install djangorestframework
+[pip install djangorestframework]
+
+- create an app Company
+[python manage.py startapp company]
+
+register company app to main project/seetings.py
+
+
+- create model employee model in company app
+
+- register employee model to admin
+
+- make migration
+[python manage.py makemigrations]
+
+- migrate
+[ python manage.py migrate]
+
+- create superuser
+[python manage.py createsuperuser]
+
+
+- create serializer file
+
+
+- create the view which will correspond to the http methods
